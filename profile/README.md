@@ -62,6 +62,7 @@ R&R
 
 ### 디자인 무드 보드
 
+![세미밋업_2](https://user-images.githubusercontent.com/113091000/231984730-6f06f953-5b70-42d8-8ca9-c8e52fef4d81.png)
 
 
 ## 기술 스택
