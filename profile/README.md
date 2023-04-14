@@ -60,6 +60,8 @@ R&R
 
 ### 비즈니스 모델 설계
 
+<img width="860" alt="스크린샷 2023-04-14 오후 5 16 23" src="https://user-images.githubusercontent.com/113091000/231986251-514af074-d6f8-424a-a460-cce728368e49.png">
+
 ### 디자인 무드 보드
 
 ![세미밋업_2](https://user-images.githubusercontent.com/113091000/231984730-6f06f953-5b70-42d8-8ca9-c8e52fef4d81.png)
