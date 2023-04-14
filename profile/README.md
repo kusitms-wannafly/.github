@@ -12,16 +12,44 @@ R&R
 
 |분야|이름|포지션|
 |------|---|---|
-|박형준|기획|테스트3|
-|김다연|기획|테스트3|
-|박세은|기획|테스트3|
-|김혜림|디자인|테스트3|
-|이동규|개발|테스트3|
-|박영식|개발|테스트3|
-|김정우|개발|테스트3|
-|민병록|개발|테스트3|
+|박형준|기획|프로젝트 매니징, 서비스 기획, 리서치 분석|
+|김다연|기획|서비스 기획, 유저 플로우|
+|박세은|기획|서비스 기획, 메뉴 구조도|
+|김혜림|디자인|프로토타입, 서비스 디자인 담당|
+|이동규|개발|개발 리드, 서버 개발 담당|
+|박영식|개발|서버 개바 담당|
+|김정우|개발|프론트 개발 담당|
+|민병록|개발|프론트 개발 담당|
+
+## 🌟목적 및 필요성
+
+
+
+
+
+|타겟|문제점|기대효과|
+|------|---|---|
+|동아리 및 대외활동을 지원하기위해 지원서를 작성하려는 대학생들|작성했던 지원서의 위치가 기억나지 않는 경우|작성했던 지원서들이 한 곳에 모여있는 경험을 통해 편리함을 느낄 수 있음|
+||작성했던 지원서를 한 눈에 모아보기 힘든 경우|작성했던 지원서들이 한 곳에 모여있는 경험을 통해 편리함을 느낄 수 있음|
+||작성했던 지원서의 문항들 중 원하는 문항들만 찾아보기 힘든 경우|원하는 문항들을 빠르게 확인하는 경험을 통해 편리함을 느낄 수 있음|
+||지원서 작성시 글자수와 맞춤법 확인을 위해 번거로운 과정을 거치는 경우|글자수와 맞춤법 확인을 한 곳에서 동시에 진행되는 경험을 통해 편리함을 느낄 수 있음|
+
+## 리서치 및 시장조사
+
+
+## 📌서비스 타겟층
+
+|분류|1차 서비스 론칭|2차 서비스 론칭|3차 서비스 론칭|
+|------|---|---|---|
+|타겟|동아리 및 대외활동에 지원하기 위해 지원서를 작성하려고 하는 대학생들|1차 타겟 유지|동아리 & 대외활동 주관사|
+|기능|핵심 기능 : 지원서 관리 및 작성 <br>세부기능 :  <br>1. 유사 질문 카테고리화 <br>2. 키웓 검색을 통한 답변 확인 <br>3. 지원서 작성시 글자 수 & 맞춤버 확인|- 포트폴리오 업로드 <br>- 동아리 지원모집 일정 확인|-지원붙 최종합격 발표까지의 프로세스 제공|
+
+## 해ㅅㅣ
 
 ## 기술 스택
+
+## 서비스 타겟층
+
 
 ### FE
 <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Recoil-0075EB?style=flat&logo=recoil&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/CloudFront-red?style=flat&logo=amazoncloudfront&logoColor=white"/> <img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/>
