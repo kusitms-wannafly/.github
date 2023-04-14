@@ -108,7 +108,7 @@
 > `Styled-Components` 사용 이유
 
 1. props 기반 스타일링: props 값을 통해 컴포넌트의 스타일을 동적으로 변경할 수 있다.
-2. 서버 사이드 렌더링: 서버 사이드 렌더링을 지원하여 페이지 로딩 속도를 높인다.
+2. 전역 스타일 관리: 컴포넌트 안에 css를 포함해서 css가 전역으로 중첩되지 않게 해준다.
 
 ### BE
 <img src="https://img.shields.io/badge/Java 17-007396?style=flat&logo=java&logoColor=white"/>
