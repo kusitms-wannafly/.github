@@ -4,7 +4,7 @@
 #### WANNA APPLY, ONE APPLY, WANNA FLY!
 #### 한 번에 지원서를 관리하고 작성까지!
 
-<img src="https://user-images.githubusercontent.com/113091000/231937410-0e063aa3-6a64-4c5a-848a-dd9b9c54c3f3.png" width="800" height="700">
+<img src="https://user-images.githubusercontent.com/113091000/231937410-0e063aa3-6a64-4c5a-848a-dd9b9c54c3f3.png" width="800">
 
 
 ### ♥️팀명 : 정신나간 동물들
