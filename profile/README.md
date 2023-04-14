@@ -90,7 +90,7 @@
 ![세미밋업_2](https://user-images.githubusercontent.com/113091000/231984730-6f06f953-5b70-42d8-8ca9-c8e52fef4d81.png)
 
 
-## 기술 스택
+## 🧑🏻‍💻 기술 스택
 
 ### FE
 <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Recoil-0075EB?style=flat&logo=recoil&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/CloudFront-red?style=flat&logo=amazoncloudfront&logoColor=white"/> <img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/>
@@ -111,16 +111,12 @@
 2. 서버 사이드 렌더링: 서버 사이드 렌더링을 지원하여 페이지 로딩 속도를 높인다.
 
 ### BE
-#### 사용 언어
 <img src="https://img.shields.io/badge/Java 17-007396?style=flat&logo=java&logoColor=white"/>
 
-#### 프레임워크
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Spring MVC-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring REST Docs-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Data JPA-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-orange?style=flat&logo=JPA&logoColor=white"/> <img src="https://img.shields.io/badge/Hibernate-orange?style=flat&logo=Hibernate&logoColor=white"/> <img src="https://img.shields.io/badge/Junit5-blue?style=flat&logo=Junit5&logoColor=white"/>
 
-#### 데이터베이스
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/H2-darkblue?style=flat&logo=h2&logoColor=white"/>
 
-#### 인프라
 <img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=Grafana&logoColor=white"/> <img src="https://img.shields.io/badge/cAdvisor-gray?style=flat&logo=cAdvisor&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
 
 #### BE - 기술 선정 이유
@@ -144,6 +140,8 @@
 - 젠킨스는 호스팅을 직접 해야하기 때문에 서버 운영 및 관리 비용 이 발생, github action는 작은 프로젝트에서 무료로 사용할수 있는 기능 많음
 - GitHub Actions는 GitHub와 밀접하게 통합, GitHub 저장소와 동일한 환경에서 워크플로우를 작성하고 실행 가능
 - GitHub Actions는 YAML 기반의 간단한 구성 파일을 사용하여 워크플로우를 작성 가능
+
+## 💼 개발팀은 이렇게 일해요
 
 ### 네이밍룰
 
@@ -190,6 +188,37 @@
 - `chore`: 빌드 업무 수정, 패키지 매니저 수정
 - ex) feat: 로그인 기능 구현
     - : 뒤의 메시지는 알아보기 쉽게만 작성, 따로 컨벤션을 두진 않음
+ 
+### 깃 전략 (git flow)
 
-### 소프트웨어 아키텍쳐
+- `main` : 제품으로 출시될 수 있는 브랜치
+- `develop` : 다음 출시 버전을 개발하는 브랜치
+- `feature` : 기능을 개발하는 브랜치
+- `hotfix` : 출시 버전에서 발생한 버그를 수정 하는 브랜치
+
+### 작업 방식
+
+1. `main` → `develop` 분기
+    - 최신 배포 직후에는 `main`과 `develop` 변경 사항이 동일함
+2. `develop` → `feature/{기능 이름}` 분기
+3. 작업 후 `feature` → `develop` PR
+    1. 충돌 해결 및 테스트 코드 pass 확인 (CI)
+4. 코드 리뷰 진행
+    1. 최소 1번
+5. `feature` → `develop` Merge
+    1. Squash and Merge
+    2. merge 후 `featrue` 브랜치 자동 삭제
+6. 배포 시점에 `develop` → `main`  PR 및 Merge
+    1. Merge commit or Rebase and Merge
+    2. CI/CD 작동
+7. 애플리케이션 장애가 발생하면 `main` → `hotfix/{문제상황}` 브랜치로 분기
+    1. 버그를 고치고 `main`으로 merge
+
+### PR 탬플릿
+- 작업 내용
+- 리뷰 해줬으면 좋겠는 부분 (고민한 내용)
+- 참고 사항
+- 스크린샷(fe)
+
+## 🏗️ 소프트웨어 아키텍쳐
 ![T1_architecture.png](https://user-images.githubusercontent.com/78652144/231353110-702297e6-fb96-48af-942c-15d93ee5bf2a.png)
