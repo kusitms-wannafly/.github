@@ -221,4 +221,4 @@
 - 스크린샷(fe)
 
 ## 🏗️ 소프트웨어 아키텍쳐
-![T1_architecture.png](https://user-images.githubusercontent.com/78652144/231353110-702297e6-fb96-48af-942c-15d93ee5bf2a.png)
+<img width="814" alt="소프트웨어 아키텍처" src="https://user-images.githubusercontent.com/70098708/232183669-e87b09e6-cad6-4465-80ff-baebfc07486c.png">
