@@ -220,5 +220,8 @@
 - 참고 사항
 - 스크린샷(fe)
 
-## 🏗️ 소프트웨어 아키텍쳐
-<img width="814" alt="소프트웨어 아키텍처" src="https://user-images.githubusercontent.com/70098708/232183669-e87b09e6-cad6-4465-80ff-baebfc07486c.png">
+## 🏗️ 인프 아키텍쳐
+<img width="814" alt="소프트웨어 아키텍처" src="https://github.com/kusitms-wannafly/wannafly_be/assets/78652144/90a0c085-b7df-4384-b304-10851cc8485f">
+
+## CI CD 아키텍처
+<img width="814" alt="소프트웨어 아키텍처" src="https://github.com/kusitms-wannafly/wannafly_be/assets/78652144/d988713a-fb53-491e-8a7e-0c4fed94e117">
