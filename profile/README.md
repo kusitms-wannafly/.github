@@ -129,41 +129,6 @@
 
 ## 💼 개발팀은 이렇게 일해요
 
-### 네이밍룰
-
-#### FE
-
-- components 이름: Pascal case
-
-  ex. `Header.js`, `Footer.js`
-
-- non-components 이름: Camel case
-
-  ex. `myUtilityFile.js`, `cookieHelper.js`
-
-- 속성명: Camel case
-
-  ex. `onClick`, `onSubmit`
-
-- inline 스타일: Camel case
-
-  ex. `fontSize`, `fontWeight`
-
-
-#### BE
-
-기본적으로 CamelCase 규칙을 따른다.
-
-- 클래스이름: `MyClass`
-    - 대문자로 시작
-- 변수명: `myValue`
-    - 소문자로 시작
-- 메서드 이름: `doSomething`
-    - 동사가 먼저 작성되도록 한다.
-    - 소문자로 시작
-- 정적 변수에 한해서만 대문자 + snake 표기법을 따른다.
-    - ex) `MY_STATIC_FIELD`
-
 ### 커밋 컨벤션
 - `feat`: 새로운 기능 추가
 - `fix`: 버그 수정
