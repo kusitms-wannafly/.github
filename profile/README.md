@@ -98,34 +98,17 @@
 
 ### BE
 <img src="https://img.shields.io/badge/Java 17-007396?style=flat&logo=java&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Spring MVC-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring REST Docs-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Data JPA-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-orange?style=flat&logo=JPA&logoColor=white"/> <img src="https://img.shields.io/badge/Hibernate-orange?style=flat&logo=Hibernate&logoColor=white"/> <img src="https://img.shields.io/badge/Junit5-blue?style=flat&logo=Junit5&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/H2-darkblue?style=flat&logo=h2&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=Grafana&logoColor=white"/> <img src="https://img.shields.io/badge/cAdvisor-gray?style=flat&logo=cAdvisor&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-
-#### BE - 기술 선정 이유
-> `Spring` 사용 이유
-
-- DI, AOP, PSA 등 스프링은 객체 지향 언어가 가진 강력한 특징을 살려내는 프레임워크
-- 현재 많은 사람들이 이용하고 있기에 레퍼런스나 참고 자료가 많다.
-- JPA, OAuth 등 다른 유용한 기술과 쉽게 통합할 수 있는 환경을 제공
-> `Java` 버전 17 사용 이유
-- Java Support 기간이 길다.
-- springboot 3.0부터는 자바 17이 디폴트
-- `Record Data class` 추가
-- `Stream.toList()` 기능 추가
-- GC 성능 개선
-> `MySQL` 사용 이유
-- 트랜잭션 처리, 복제, 보안 기능, 뷰, 저장 프로시저, 트리거, 외래 키 등의 다양한 고급 기능을 제공
-- 다른 데이터베이스로 이관하는 것도 상대적으로 쉽고 간편
-- 많은 개발자와 운영자들이 이미 MySQL에 익숙하며, 높은 생태계와 커뮤니티 지원을 제공
-
-> CI/CD 툴로 젠킨스 등이 아닌 `Github Action` 사용 이유
-- 젠킨스는 호스팅을 직접 해야하기 때문에 서버 운영 및 관리 비용 이 발생, github action는 작은 프로젝트에서 무료로 사용할수 있는 기능 많음
-- GitHub Actions는 GitHub와 밀접하게 통합, GitHub 저장소와 동일한 환경에서 워크플로우를 작성하고 실행 가능
-- GitHub Actions는 YAML 기반의 간단한 구성 파일을 사용하여 워크플로우를 작성 가능
+<br>
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Spring MVC-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring REST Docs-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Data JPA-6DB33F?style=flat&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-orange?style=flat&logo=JPA&logoColor=white"/> <img src="https://img.shields.io/badge/Hibernate-orange?style=flat&logo=Hibernate&logoColor=white"/> <img src="https://img.shields.io/badge/Querydsl-orange?style=flat&logo=querydsl&logoColor=white"/> <img src="https://img.shields.io/badge/Junit5-blue?style=flat&logo=Junit5&logoColor=white"/>
+<br>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/H2-darkblue?style=flat&logo=h2&logoColor=white"/> <img src="https://img.shields.io/badge/Flyway-CC0200?style=flat&logo=flyway&logoColor=withe"/>
+<br>
+<img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"/> 
+<img src="https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws lambda&logoColor=white"/> 
+<img src="https://img.shields.io/badge/ELB-FF9900?style=flat&logo=amazon elb&logoColor=white"/> <img src="https://img.shields.io/badge/Api Gateway-FF9900?style=flat&logo=amazonapigateway&logoColor=white"/> 
+<br>
+<img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=Grafana&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
 
 ## 💼 개발팀은 이렇게 일해요
 
