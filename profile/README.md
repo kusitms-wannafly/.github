@@ -92,23 +92,9 @@
 
 ## 🧑🏻‍💻 기술 스택
 
+
 ### FE
-<img src="https://img.shields.io/badge/Typescript-3178C6?style=flat&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Recoil-0075EB?style=flat&logo=recoil&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/CloudFront-red?style=flat&logo=amazoncloudfront&logoColor=white"/> <img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/>
-
-#### FE - 기술 선정 이유
-> `TS` 사용 이유
-
-1. 유지 보수성 : TS는 정적 타입 검사를 지원하고 코드의 타입 오류를 미리 발견해 작업 효율을 높인다.
-2. 코드 가독성 향상 : JS에 비해 클래스와 모듈 등 객체지향프로그래밍 기능을 더욱 쉽게 지원해서 코드 리뷰를 효과적으로 할 수 있다.
-> `Recoil` 사용 이유
-
-1. 상태 관리의 편리함 : 컴포넌트 간의 상태 전달이 쉬워진다. 코드의 복잡성을 줄이고 가독성을 높인다.
-2. 비동기 상태 관리의 용이성 : Recoil은 비동기 상태 관리를 쉽게 처리하게 한다. 일반적으로 Redux나 MobX 라이브러리를 이용하지만 더 가볍고 간편하게 처리할 수 있다.
-
-> `Styled-Components` 사용 이유
-
-1. props 기반 스타일링: props 값을 통해 컴포넌트의 스타일을 동적으로 변경할 수 있다.
-2. 전역 스타일 관리: 컴포넌트 안에 css를 포함해서 css가 전역으로 중첩되지 않게 해준다.
+<img src="https://img.shields.io/badge/Typescript-3178C6?style=flat&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white"/> <img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/CloudFront-red?style=flat&logo=amazoncloudfront&logoColor=white"/> <img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/>
 
 ### BE
 <img src="https://img.shields.io/badge/Java 17-007396?style=flat&logo=java&logoColor=white"/>
@@ -220,7 +206,7 @@
 - 참고 사항
 - 스크린샷(fe)
 
-## 🏗️ 인프 아키텍쳐
+## 🏗️ 인프라 아키텍쳐
 <img width="814" alt="소프트웨어 아키텍처" src="https://github.com/kusitms-wannafly/wannafly_be/assets/78652144/90a0c085-b7df-4384-b304-10851cc8485f">
 
 ## CI CD 아키텍처
