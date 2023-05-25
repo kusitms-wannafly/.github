@@ -105,7 +105,7 @@
 
 <img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws lambda&logoColor=white"/> <img src="https://img.shields.io/badge/ELB-FF9900?style=flat&logo=amazon elb&logoColor=white"/> <img src="https://img.shields.io/badge/Api Gateway-FF9900?style=flat&logo=amazonapigateway&logoColor=white"/> 
 
-<img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=Grafana&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat&logo=githubactions&logoColor=white"/> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=Grafana&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/redis-DC382D?style=flat&logo=redis&logoColor=white"/>
 
 ## 💼 개발팀은 이렇게 일해요
 
@@ -152,7 +152,7 @@
 - 스크린샷(fe)
 
 ## 🏗️ 인프라 아키텍쳐
-<img width="814" alt="소프트웨어 아키텍처" src="https://github.com/kusitms-wannafly/wannafly_be/assets/78652144/90a0c085-b7df-4384-b304-10851cc8485f">
+<img width="814" alt="소프트웨어 아키텍처" src="https://github.com/kusitms-wannafly/.github/assets/78652144/e09c7cf9-c9f2-4bc3-b2ec-0d2bc7b35eb7">
 
 ## CI CD 아키텍처
 <img width="814" alt="소프트웨어 아키텍처" src="https://github.com/kusitms-wannafly/wannafly_be/assets/78652144/d988713a-fb53-491e-8a7e-0c4fed94e117">
